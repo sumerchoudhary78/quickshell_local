@@ -136,7 +136,6 @@ Row {
                 anchors.leftMargin: icon.anchors.leftMargin
                 text: `:  ${SysInfo.osPrettyName || SysInfo.osName}`
                 font.pointSize: Appearance.font.size.normal
-
                 width: Config.dashboard.sizes.infoWidth
                 elide: Text.ElideRight
             }
