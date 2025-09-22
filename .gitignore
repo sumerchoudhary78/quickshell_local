@@ -1,0 +1,11 @@
+shell/.direnv
+shell/result
+shell/.qmlls.ini
+shell/build/
+shell/.cache/
+
+caelestia/.direnv
+caelestia/result
+caelestia/.qmlls.ini
+caelestia/build/
+caelestia/.cache/
