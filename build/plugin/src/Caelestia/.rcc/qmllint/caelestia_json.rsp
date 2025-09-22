@@ -1,0 +1,11 @@
+--bare
+-I
+/home/Luffy/.config/quickshell/caelestia/build/qml
+-I
+/home/Luffy/.config/quickshell/caelestia/build/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/.qt/rcc/qmake_Caelestia.qrc
+--json
+/home/Luffy/.config/quickshell/caelestia/build/caelestia_qmllint.json

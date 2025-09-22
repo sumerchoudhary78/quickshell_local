@@ -1,0 +1,4 @@
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_appdb.cpp.json
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_cutils.cpp.json
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_qalculator.cpp.json
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/caelestia_autogen/include/../EWIEGA46WW/moc_requests.cpp.json

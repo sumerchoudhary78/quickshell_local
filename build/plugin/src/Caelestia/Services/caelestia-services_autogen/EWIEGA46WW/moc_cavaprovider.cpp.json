@@ -1,0 +1,111 @@
+{
+    "classes": [
+        {
+            "className": "CavaProcessor",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "bars",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setBars",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "caelestia::CavaProcessor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "values",
+                            "type": "QList<double>"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "valuesChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "fullyQualifiedName": "caelestia::AudioProcessor",
+                    "name": "AudioProcessor"
+                }
+            ]
+        },
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "CavaProvider",
+            "lineNumber": 37,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "bars",
+                    "notify": "barsChanged",
+                    "read": "bars",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setBars"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "values",
+                    "notify": "valuesChanged",
+                    "read": "values",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<double>",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::CavaProvider",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "barsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "valuesChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "fullyQualifiedName": "caelestia::AudioProvider",
+                    "name": "AudioProvider"
+                }
+            ]
+        }
+    ],
+    "inputFile": "cavaprovider.hpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,10 @@
+-I
+/home/Luffy/.config/quickshell/caelestia/build/qml
+-I
+/home/Luffy/.config/quickshell/caelestia/build/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/.qt/rcc/qmake_Caelestia_Services.qrc
+--module
+Caelestia.Services

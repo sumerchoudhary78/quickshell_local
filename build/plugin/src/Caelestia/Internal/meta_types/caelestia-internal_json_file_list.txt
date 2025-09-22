@@ -1,0 +1,2 @@
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_cachingimagemanager.cpp.json
+/home/Luffy/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_circularindicatormanager.cpp.json
