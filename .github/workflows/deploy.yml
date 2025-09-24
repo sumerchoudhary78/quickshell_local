@@ -13,4 +13,6 @@ jobs:
         run: |
           cd /home/Luffy/.config/quickshell/caelestia
           git fetch --all
-          git reset --hard origin/main
+          git pull
+          qs -c caelestia kill
+          caelestia shell -d
