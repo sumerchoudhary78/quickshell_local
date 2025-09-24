@@ -16,5 +16,10 @@ jobs:
           git status
           git fetch --all
           git pull
-          qs -c caelestia kill || echo "qs kill failed"
-          caelestia shell -d || echo "caelestia shell failed"
+
+      - name: Restart shell
+        run: |
+          export DISPLAY=:0
+          export XDG_RUNTIME_DIR=/run/user/1000
+          qs -c caelestia kill || true
+          caelestia shell -d    
