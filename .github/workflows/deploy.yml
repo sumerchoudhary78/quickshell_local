@@ -24,4 +24,4 @@ jobs:
           qs -c caelestia kill  
       - name: start shell
         run: |
-          systemctl --user restart quickshell.service    
+          systemctl --machine=Luffy@.host --user restart quickshell.service
