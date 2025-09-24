@@ -24,4 +24,4 @@ jobs:
           qs -c caelestia kill  
       - name: start shell
         run: |
-          systemctl --machine=Luffy@.host --user restart quickshell.service
+          sudo -u Luffy XDG_RUNTIME_DIR=/run/user/1000 systemctl --user restart quickshell.service
