@@ -8,6 +8,7 @@ import qs.config
 import qs.utils
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Controls
 
 ColumnLayout {
     id: root
@@ -404,6 +405,46 @@ ColumnLayout {
                     property: "opacity"
                     to: 0
                     duration: Appearance.anim.durations.large
+                }
+            }
+        }
+    }
+        Popup {
+        id: failPopup
+        modal: true
+        focus: true
+        anchors.centerIn: Overlay.overlay
+        visible: root.lock.pam.state === "fail"
+
+        background: Rectangle {
+            color: "transparent"
+        }
+
+        Rectangle {
+            width: 320
+            height: 360
+            radius: 20
+            color: Colours.tPalette.m3surfaceContainer
+            anchors.centerIn: parent
+
+            Column {
+                anchors.centerIn: parent
+                spacing: 12
+
+                CachingImage {
+                    width: 250
+                    height: 250
+                    fillMode: Image.PreserveAspectFit
+                    path: Paths.home + "/.config/quickshell/caelestia/assets/acp.png"
+                }
+
+                StyledText {
+                    text: "Kyaa Chedaa b..."
+                    color: Colours.palette.m3error
+                    font.pointSize: Appearance.font.size.large
+                    font.family: Appearance.font.family.mono
+                    horizontalAlignment: Qt.AlignHCenter
+                    anchors.horizontalCenter: parent.horizontalCenter
                 }
             }
         }
