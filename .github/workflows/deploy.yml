@@ -21,8 +21,9 @@ jobs:
         run: |
           export DISPLAY=:0
           export XDG_RUNTIME_DIR=/run/user/1000
-          qs -c caelestia kill || true   
+          qs -c caelestia kill  
       - name: start shell
         run: |
           export DISPLAY=:0
+          export XDG_RUNTIME_DIR=/run/user/1000
           caelestia shell -d    
