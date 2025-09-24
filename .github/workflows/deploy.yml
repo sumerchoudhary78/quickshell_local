@@ -24,4 +24,5 @@ jobs:
           qs -c caelestia kill || true   
       - name: start shell
         run: |
+          export DISPLAY=:0
           caelestia shell -d    
