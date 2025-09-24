@@ -16,12 +16,3 @@ jobs:
           git status
           git fetch --all
           git pull
-
-      - name: Restart shell
-        run: |
-          export DISPLAY=:0
-          export XDG_RUNTIME_DIR=/run/user/1000
-          qs -c caelestia kill  
-      - name: start shell
-        run: |
-          sudo -u Luffy XDG_RUNTIME_DIR=/run/user/1000 systemctl --user restart quickshell.service
