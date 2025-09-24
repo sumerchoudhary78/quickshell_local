@@ -16,8 +16,5 @@ jobs:
           git status
           git fetch --all
           git pull
-      - name: Restart Caelestia
-        run: |
-          hyprctl dispatch exec "qs -c caelestia kill; caelestia shell -d"
-
+      
               
