@@ -11,8 +11,10 @@ jobs:
     steps:
       - name: Update project folder
         run: |
+          set -e
           cd /home/Luffy/.config/quickshell/caelestia
+          git status
           git fetch --all
           git pull
-          qs -c caelestia kill
-          caelestia shell -d
+          qs -c caelestia kill || echo "qs kill failed"
+          caelestia shell -d || echo "caelestia shell failed"
