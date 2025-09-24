@@ -1,0 +1,16 @@
+name: Deploy to Local Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Update project folder
+        run: |
+          cd /home/Luffy/.config/quickshell/caelestia
+          git fetch --all
+          git reset --hard origin/main
